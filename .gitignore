@@ -1,0 +1,57 @@
+# .gitignore
+
+# Python byte-compiled / optimized / DLL files (.pyc and __pycache__)
+*.pyc
+/__pycache__/
+
+# Thumbs.db and .DS_Store are created by Windows and Mac respectively
+Thumbs.db
+.DS_Store
+
+# Python cache files
+*.pyo
+*.pyd
+
+# Logs
+logs/
+log
+*.log
+.log*
+
+# Temporary files that get created
+*.tmp
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Python virtual environment
+venv/
+.virtualenv/
+.env/
+virtualenv/
+Virtualenv/
+
+# Environment variables
+.env
+
+# Build artifacts if you're using PyInstaller
+build/
+dist/
+*.spec
+
+# IPython
+.ipynb_checkpoints
+
+# Jupyter notebook checkpoints
+nb_conda_kernels/
+nb_kernel.json
+
+# Egg information (Python packaging)
+*.egg-info/
+.dist-info/
+pip-wheel-metadata/
+
+# Output from py.test / pytest
+*.xml
+*.log
